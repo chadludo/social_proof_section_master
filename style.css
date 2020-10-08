@@ -188,10 +188,10 @@ color: hsl(300, 24%, 96%);
 {
 
 	body {
-	background-image: url(images/bg-pattern-top-desktop.svg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: top;
+		background-image: url(images/bg-pattern-top-desktop.svg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
 	}
 
 	#wrapper {
@@ -200,7 +200,11 @@ color: hsl(300, 24%, 96%);
        flex-direction: column;
        justify-content: flex-start;
        align-items: center;
-    }
+	   margin: 50px auto;
+	   transform: none;
+	   height: auto; 
+	}
+    
 
     header {
   		width: 100%;
@@ -208,54 +212,54 @@ color: hsl(300, 24%, 96%);
     	flex-direction: column;
     	justify-content: flex-start;
     	align-items: center;
-    	text-align: center;
-  
+    	height: auto;
     }
 
 	#intro {
-	width: 100%;
+		width: 100%;
+		text-align: center;
 	}
 
 	#ranking {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 100%;
 	}
 
 	.rank_container1 .rank_container2 .rank_container3 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 
 	.rank {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	background-color: hsla(333, 80%, 67%, 0.1);
-	border-radius: 10px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		background-color: hsla(333, 80%, 67%, 0.1);
+		border-radius: 10px;
 	}
 
     section {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    	flex-direction: column;
+    	justify-content: space-around;
+    	align-items: center;
     }
 
 	.rank {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 
 	.card {
-	margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 
 }
